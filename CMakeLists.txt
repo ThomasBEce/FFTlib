@@ -6,7 +6,7 @@ set(CMAKE_CXX_COMPILER g++)
 set(CMAKE_CXX_FLAGS "-lm -lfftw3f")
 
 #Cmake instruction to make the static lib : FFTlib 
-set(CMAKE_PREFIX_PATH /usr/local/lib/cmake/fftw3f/fftw3/)
+set(CMAKE_PREFIX_PATH /usr/local/lib/cmake/fftw3)
 
 #Set Projet Name 
 set(CMAKE_PROJET_NAME FFTlib)
