@@ -31,7 +31,7 @@ Il faut le copier dans le dossier /usr/local/lib/cmake/fftw3.
 exemple : Si on se trouve dans le dossier Documents/FFTlib/Dépendances 
 cp FFTW3LibraryDepends ../../../../../usr/local/lib/cmake/fftw3
 
-Maintenant, il nous manque juste à faire le cmake de FFTlib.
+Maintenant on retourne dans le dossier du projet, il va ainsi nous manquer juste à faire le cmake de FFTlib.
 On crée un fichier build et on se rend dedans : mkdir build && cd build 
 Maintenant on lance le cmake et on l'install :
 
