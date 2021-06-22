@@ -70,7 +70,7 @@ int FFTlib::ComputeNT( int nb_ech , int nfft , int nb_fft , int decalage_t )
 
 /*
 Execute : Execute les FFT
-    in : pointeur de sortie, pointeur d'entré, bombre d'échantillon en entré, nombre de voie, taille des fft, décalage, nombre de fft, temps max
+    in : pointeur de sortie, pointeur d'entré, nombre d'échantillon en entré, nombre de voie, taille des fft, décalage, nombre de fft, temps max
     out : tableau de toutes les fft
 */
 void FFTlib::Execute( std::complex<float> *tf_out,
